@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     public void setUpMap(){
-        mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        mMap.setMapType(GoogleMap.MAP_TYPE_NONE);
         mMap.setTrafficEnabled(true);
         mMap.setIndoorEnabled(true);
         mMap.setBuildingsEnabled(true);
