@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             Address address = addressList.get(0);
             LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
             mMap.addMarker(new MarkerOptions().position(latLng).title(location));
-            Log.d("test", latLng.toString());
+            Log.d("test1", latLng.toString());
             mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
         }
     }
